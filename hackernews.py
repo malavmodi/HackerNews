@@ -1,4 +1,4 @@
-import hackernews
+from hackernews import HackerNews
 hn = HackerNews()
 
 stories = hn.top_stories()
